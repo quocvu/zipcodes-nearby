@@ -1,4 +1,3 @@
-const rewire = require('rewire');
 const should = require('should');
 
 const zipcodes = require('../index');
