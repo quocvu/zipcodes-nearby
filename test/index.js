@@ -8,7 +8,6 @@ describe('near()', (done) => {
   it('should find 5 zipcodes', (done) => {
     zipcodes.near('10453', 100000, { datafile: 'test/zipcodes.csv' })
       .then((res) => {
-        console.log(res)
         res.length.should.be.equal(5);
 
         for (let i=0; i<5; i++) {
@@ -24,7 +23,6 @@ describe('near()', (done) => {
   it('should find 7 zipcodes', (done) => {
     zipcodes.near('50453', 100000, { datafile: 'test/zipcodes.csv' })
       .then((res) => {
-        console.log(res)
         res.length.should.be.equal(7);
 
         for (let i=0; i<5; i++) {

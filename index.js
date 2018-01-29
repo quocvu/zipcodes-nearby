@@ -2,7 +2,7 @@ const fs = require('fs');
 
 const Csv = require('fast-csv');
 const geolib = require('geolib');
-const lodash = require('lodash');
+const _ = require('lodash');
 
 const csvOptions = {
   discardUnmappedColumns: true,
@@ -23,9 +23,9 @@ function findCoordinates(zipcode, datafile, columns) {
     Csv.fromPath(datafile, csvOptions)
       .validate((data) => {
         return data
-          && data.hasOwnProperty(columns.long) && !lodash.isEmpty(data[columns.long])
-          && data.hasOwnProperty(columns.lat) && !lodash.isEmpty(data[columns.lat])
-          && data.hasOwnProperty(columns.zipcode) && !lodash.isEmpty(data[columns.zipcode]);
+          && data.hasOwnProperty(columns.long) && !_.isEmpty(data[columns.long])
+          && data.hasOwnProperty(columns.lat) && !_.isEmpty(data[columns.lat])
+          && data.hasOwnProperty(columns.zipcode) && !_.isEmpty(data[columns.zipcode]);
       })
       .on('data-invalid', (data) => {
         // console.log('Missing zipcode or longitude or latitude', data);
@@ -56,9 +56,9 @@ function findNear(center, radius, datafile, columns) {
     Csv.fromPath(datafile, csvOptions)
       .validate((data) => {
         return data
-          && data.hasOwnProperty(columns.long) && !lodash.isEmpty(data[columns.long])
-          && data.hasOwnProperty(columns.lat) && !lodash.isEmpty(data[columns.lat])
-          && data.hasOwnProperty(columns.zipcode) && !lodash.isEmpty(data[columns.zipcode]);
+          && data.hasOwnProperty(columns.long) && !_.isEmpty(data[columns.long])
+          && data.hasOwnProperty(columns.lat) && !_.isEmpty(data[columns.lat])
+          && data.hasOwnProperty(columns.zipcode) && !_.isEmpty(data[columns.zipcode]);
       })
       .on('data-invalid', (data) => {
         // console.log('Missing zipcode or longitude or latitude', data);
