@@ -99,8 +99,6 @@ module.exports = {
       zipcode: options && options.zipcode !== undefined ? options.zipcode : 'Zipcode',
     };
 
-    const zipcodes = [];
-
     return new Promise((resolve, reject) => {
       findCoordinates(zipcode, datafile, columns)
         .then((center) => {
