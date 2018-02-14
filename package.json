@@ -1,6 +1,6 @@
 {
   "name": "zipcodes-nearby",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Find a list of zipcodes within a certain distance of a given zipcode.",
   "main": "index.js",
   "scripts": {
@@ -30,7 +30,8 @@
   "homepage": "https://github.com/quocvu/zipcode-radius#readme",
   "dependencies": {
     "fast-csv": "^2.4.1",
-    "geolib": "^2.0.24"
+    "geolib": "^2.0.24",
+    "lodash": "^4.17.5"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.1",
