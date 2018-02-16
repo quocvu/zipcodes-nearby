@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/quocvu/zipcode-radius.git"
+    "url": "git+https://github.com/quocvu/zipcodes-nearby.git"
   },
   "keywords": [
     "zip",
@@ -25,9 +25,9 @@
   "author": "Quoc Vu <darthvu@gmail.com> (https://github.com/quocvu)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/quocvu/zipcode-radius/issues"
+    "url": "https://github.com/quocvu/zipcodes-nearby/issues"
   },
-  "homepage": "https://github.com/quocvu/zipcode-radius#readme",
+  "homepage": "https://github.com/quocvu/zipcodes-nearby#readme",
   "dependencies": {
     "fast-csv": "^2.4.1",
     "geolib": "^2.0.24",
