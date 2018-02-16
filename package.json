@@ -1,6 +1,6 @@
 {
   "name": "zipcodes-nearby",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Find a list of zipcodes within a certain distance of a given zipcode.",
   "main": "index.js",
   "scripts": {
