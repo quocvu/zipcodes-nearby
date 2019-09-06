@@ -41,5 +41,6 @@
     "eslint-plugin-jsx-a11y": "^6.2.1",
     "eslint-plugin-react": "^7.13.0",
     "jest": "^24.9.0",
+    "jest-extended": "^0.11.2"
   }
 }
