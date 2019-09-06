@@ -28,8 +28,8 @@
   },
   "homepage": "https://github.com/quocvu/zipcodes-nearby#readme",
   "dependencies": {
-    "fast-csv": "^2.5.0",
-    "geolib": "^2.0.24",
+    "fast-csv": "^3.4.0",
+    "geolib": "^3.0.0",
     "lodash": "^4.17.15"
   },
   "devDependencies": {
