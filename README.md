@@ -1,4 +1,4 @@
-[![Build Status](http://img.shields.io/travis/quocvu/zipcodes-nearby.svg?style=for-the-badge)](https://travis-ci.org/quocvu/zipcodes-nearby)
+[![Build Status](https://img.shields.io/github/workflow/status/quocvu/zipcodes-nearby/NodeJS-CI?style=for-the-badge)](https://github.com/quocvu/zipcodes-nearby/actions/workflows/NodeJS-CI.yml)
 [![Coverage Status](https://img.shields.io/coveralls/quocvu/zipcodes-nearby.svg?style=for-the-badge)](https://coveralls.io/github/quocvu/zipcodes-nearby)
 [![NPM Downloads](https://img.shields.io/npm/dt/zipcodes-nearby.svg?style=for-the-badge)](https://www.npmjs.com/package/zipcodes-nearby)
 [![NPM Version](https://img.shields.io/npm/v/zipcodes-nearby.svg?style=for-the-badge)](https://www.npmjs.com/package/zipcodes-nearby)
@@ -16,13 +16,13 @@ Find a list of zipcodes within a certain distance of a given zipcode.
 
 The method `near(zipcode|coordinates, distance[, options])` takes 2 to 3 arguments.
 
-* First is the zipcode or geo-coordinates (long/lat) to search around
-* Second is the distance (in meters) to search within
-* Third is an optional object with the following attributes:
-  * `datafile`: name for the CSV file containing zipcodes coordinates. By default it looks for a file `zipcodes.csv` in the same folder
-  * `zipcode`: name of the column in the CSV file containing the zipcode. By default it is `Zipcode`
-  * `long`: name of the column in the CSV file containing the zipcode longitude. By default it is `Long`
-  * `lat`: name of the column in the CSV file containing the zipcode latitude. By default it is 'Lat'
+- First is the zipcode or geo-coordinates (long/lat) to search around
+- Second is the distance (in meters) to search within
+- Third is an optional object with the following attributes:
+  - `datafile`: name for the CSV file containing zipcodes coordinates. By default it looks for a file `zipcodes.csv` in the same folder
+  - `zipcode`: name of the column in the CSV file containing the zipcode. By default it is `Zipcode`
+  - `long`: name of the column in the CSV file containing the zipcode longitude. By default it is `Long`
+  - `lat`: name of the column in the CSV file containing the zipcode latitude. By default it is 'Lat'
 
 For examples:
 
@@ -42,21 +42,19 @@ nearby = zipcodes.near('95020', 10000, { datafile: 'newzipcodes.csv' });
 
 ## Data file
 
-The data file with zipcodes coordinates must be supplied.  We have include one
-for USA to use.  It can be replaced by zipcodes (or postal codes) from any country
+The data file with zipcodes coordinates must be supplied. We have include one
+for USA to use. It can be replaced by zipcodes (or postal codes) from any country
 as long as the file contains the zipcode, the longitude, and the latitude.
 
 You can download an updated file for the USA at <http://federalgovernmentzipcodes.us/>
-
 
 ## License
 
 [MIT](https://github.com/quocvu/zipcodes-nearby/blob/master/LICENSE.txt)
 
-
 ## Author Information
 
-Quoc Vu  
+Quoc Vu
 
-* https://linkedin.com/in/quocvu  
-* https://github.com/quocvu
+- https://linkedin.com/in/quocvu
+- https://github.com/quocvu

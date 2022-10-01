@@ -4,7 +4,6 @@
   "description": "Find a list of zipcodes within a certain distance of a given zipcode.",
   "main": "index.js",
   "scripts": {
-    "coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls",
     "test": "NODE_ENV=test jest --coverage"
   },
   "repository": {
