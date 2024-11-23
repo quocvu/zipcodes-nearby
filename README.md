@@ -1,4 +1,3 @@
-[![Build Status](https://img.shields.io/github/workflow/status/quocvu/zipcodes-nearby/NodeJS-CI?style=for-the-badge)](https://github.com/quocvu/zipcodes-nearby/actions/workflows/NodeJS-CI.yml)
 [![Coverage Status](https://img.shields.io/coveralls/quocvu/zipcodes-nearby.svg?style=for-the-badge)](https://coveralls.io/github/quocvu/zipcodes-nearby)
 [![NPM Downloads](https://img.shields.io/npm/dt/zipcodes-nearby.svg?style=for-the-badge)](https://www.npmjs.com/package/zipcodes-nearby)
 [![NPM Version](https://img.shields.io/npm/v/zipcodes-nearby.svg?style=for-the-badge)](https://www.npmjs.com/package/zipcodes-nearby)
